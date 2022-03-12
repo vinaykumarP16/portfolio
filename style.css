@@ -7,13 +7,40 @@
 
 }
 
+.working {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.working h3{
+	color:rgb(224, 95, 20);
+}
+
+.position{
+	color:#00bcd4;
+}
+
+#country{
+	background-image: linear-gradient(orange, white,green);
+	color:blue;
+}
+
+
+
+.working img{
+	width: 150px;
+	height: 150px;
+	margin: 20px;
+}
+
 .toggle{
 	position: fixed;
 	top: 30px;
 	right: 30px;
 	width: 50px;
 	height: 50px;
-	background: #000 url(i/menu.png);
+	background: #000 url(Images/menu.png);
 	background-size: 30px;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -23,7 +50,7 @@
 
 .toggle.active{
 
-	background: #000 url(i/close.png);
+	background: #000 url(Images/close.png);
 	background-size: 30px;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -169,7 +196,7 @@ p{
 }
 
 .sci li{
-	margin-right: 10px;
+	margin-right: 40px;
 	list-style: none;
 
 }
@@ -177,6 +204,17 @@ p{
 .sci li img{
 	transform: scale(0.5);
 	opacity: 0.7;
+	
+}
+
+.connect{
+	margin-right:30px ;
+	color:rgb(7, 75, 201);
+}
+
+.linkedIn{
+	width: 41px;
+	height: 45px;
 }
 
 .sci li img:hover{
@@ -247,6 +285,7 @@ p{
 
 .about .content .imgBx img{
 	max-width: 100%;
+	height: 400px;
 }
 .services .content{
 	display: flex;
