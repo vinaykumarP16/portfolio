@@ -511,6 +511,10 @@ p{
 	.sci{
 		left: 40px;
 	}
+
+	.sci li{
+		margin-right:10px ;
+	}
 	section{
 		padding: 40px;
 	}
