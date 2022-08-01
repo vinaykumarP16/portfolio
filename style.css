@@ -89,7 +89,7 @@ section{
 	top: 0;
 	right: 0;
 	width:calc(100% - 500px);
-	background-image: url('Images/backgroundtechs.png');
+	background-image: url('Images/techsbg.png');
 	background-size:contain;
 	height: 100%;
 	display: flex;
